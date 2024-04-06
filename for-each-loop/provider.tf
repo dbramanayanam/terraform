@@ -7,6 +7,15 @@ terraform {
   }
 }
 
+terraform {
+  backend "s3" {
+    bucket = "dineshdevops.online"
+    key    = "foreachloop"
+    region = "us-east-1"
+    dynamodb_table = "dineshdevops.online-locking"
+  }
+}
+
 provider "aws" {
     region = "us-east-1"
  }
