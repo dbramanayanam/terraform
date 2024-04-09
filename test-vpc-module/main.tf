@@ -8,4 +8,5 @@ module "roboshop" {
   #igw_tags = var.igw_tags
   public_cidr = var.public_cidr
   private_cidr = var.private_cidr
+  database_cidr = var.database_cidr
 }

@@ -49,3 +49,9 @@ variable "private_cidr" {
   default     =["10.0.11.0/24", "10.0.22.0/24"]
   
 }
+
+variable "database_cidr" {
+  #type        = "list"
+  default     =["10.0.32.0/24", "10.0.42.0/24"]
+  
+}
