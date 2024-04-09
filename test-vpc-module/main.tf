@@ -1,5 +1,6 @@
 module "roboshop" {
-  source = "../vpc-modules"
+  #source = "../vpc-modules"
+  source = "git::https://github.com/dbramanayanam/Terraform-vpc-module.git?ref=main"
   vpc_cidr_block = var.vpc_cidr_block
   project = var.project
   environment = var.environment
