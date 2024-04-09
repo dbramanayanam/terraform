@@ -7,4 +7,5 @@ module "roboshop" {
   vpc_tags = var.vpc_tags
   #igw_tags = var.igw_tags
   public_cidr = var.public_cidr
+  private_cidr = var.private_cidr
 }
