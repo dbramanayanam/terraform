@@ -55,3 +55,7 @@ variable "database_cidr" {
   default     =["10.0.32.0/24", "10.0.42.0/24"]
   
 }
+
+variable "is_peering_required" {
+  default = true
+}
